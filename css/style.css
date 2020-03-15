@@ -11,25 +11,28 @@ body {
 .title {
   font: 400 30px/40px Roboto, "Helvetica Neue", sans-serif;
   margin: 0px 0px 5px;
-  letter-spacing: 1px;
+
 }
 
 .sub-title {
   font: 400 24px/32px Roboto, "Helvetica Neue", sans-serif;
   margin: 0px 0px 5px;
-  letter-spacing: 1px;
 }
 
 .heading {
-  font: 600 20px/32px Georgia, serif;
-  letter-spacing: 1px;
+  font: 600 22px/34px Georgia, serif;
+  margin: 0px 0px 5px;
 }
 
 .sub-heading-1 {
-  font: 500 16px/28px Roboto, "Helvetica Neue", sans-serif;
+  font: 600 18px/32px Georgia, serif;
 }
 
 .sub-heading-2 {
+  font: 500 16px/28px Roboto, "Helvetica Neue", sans-serif;
+}
+
+.sub-heading-3 {
   font: 400 14px/24px Roboto, "Helvetica Neue", sans-serif;
 }
 
@@ -81,10 +84,14 @@ body {
   flex-direction: column;
 }
 
-.experience > div div:first-of-type,
+.experience > div div:nth-of-type(2),
 .education > div div:first-of-type {
   display: flex;
   place-content: space-between;
+}
+
+.experience > div div:first-of-type{
+  margin-right: 10px;
 }
 
 .left-section > *,
