@@ -3,37 +3,37 @@ body {
   background: #fff;
   margin: auto;
   font-family: Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 18px;
+  line-height: 20px;
   color: rgba(0, 0, 0, 0.64);
 }
 
 .title {
-  font: 400 30px/40px Roboto, "Helvetica Neue", sans-serif;
+  font: 400 34px/46px Roboto, "Helvetica Neue", sans-serif;
   margin: 0px 0px 5px;
 
 }
 
 .sub-title {
-  font: 400 24px/32px Roboto, "Helvetica Neue", sans-serif;
+  font: 400 26px/40px Roboto, "Helvetica Neue", sans-serif;
   margin: 0px 0px 5px;
 }
 
 .heading {
-  font: 600 22px/34px Georgia, serif;
+  font: 600 24px/34px Georgia, serif;
   margin: 0px 0px 5px;
 }
 
 .sub-heading-1 {
-  font: 600 18px/32px Georgia, serif;
+  font: 600 20px/32px Georgia, serif;
 }
 
 .sub-heading-2 {
-  font: 500 16px/28px Roboto, "Helvetica Neue", sans-serif;
+  font: 500 18px/30px Roboto, "Helvetica Neue", sans-serif;
 }
 
 .sub-heading-3 {
-  font: 400 14px/24px Roboto, "Helvetica Neue", sans-serif;
+  font: 400 16px/28px Roboto, "Helvetica Neue", sans-serif;
 }
 
 .padding-wrapper {
@@ -121,8 +121,8 @@ body {
 }
 
 .left-section .my-pic img {
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -148,7 +148,7 @@ body {
   background-color: #3f51b5;
   color: #fff;
   padding: 10px 20px;
-  height: 130px;
+  height: 160px;
   display: flex;
   flex-direction: column;
 }
