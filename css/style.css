@@ -1,0 +1,116 @@
+body {
+  width: 9.93in;
+  background: #fff;
+  margin: auto;
+}
+
+.margin-wrapper-10 {
+  margin: 10px;
+}
+
+.padding-wrapper-10 {
+  padding: 5px 10px;
+}
+
+.container {
+  display: flex;
+}
+
+.left-section {
+  flex: 1 1 30%;
+  padding: 10px;
+}
+
+.skills > div, .experience > div, .education > div, .language > div{
+  margin: 20px 0px; 
+}
+
+.skills > div div{
+  margin-bottom: 10px; 
+}
+
+.skills > div:first-of-type .experience > div:first-of-type, 
+.education > div:first-of-type, .language > div:first-of-type
+{
+  margin-top: 10px; 
+}
+
+.skills > div div span{
+  background-color: #3f51b5;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 4px;
+  vertical-align: baseline;
+  text-align: center;
+}
+
+.experience > div div:first-of-type, .education > div div:first-of-type{
+  display: flex;
+  place-content: space-between;
+}
+
+.left-section > *,
+.right-section > * {
+  margin-bottom: 20px;
+}
+.left-section section:last-child,
+.right-section section:last-child {
+  margin-bottom: 0px;
+}
+
+.left-section .my-pic {
+  align-self: start;
+}
+
+.left-section .my-pic img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+
+.right-section {
+  flex: 1 1 70%;
+  padding: 10px;
+}
+
+.personal-info i {
+  margin-right: 10px;
+}
+
+.about {
+  background-color: #3f51b5;
+  color: #fff;
+}
+
+.apply-color {
+  color: #3f51b5;
+}
+
+hr {
+  margin: 0px;
+  border-top: 2px solid #3f51b5;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+a {
+  color: black;
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+.language div > span {
+  color: #3f51b5;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  padding: 0 15px;
+  line-height: 34px;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.14), 0 0 0 0 rgba(0, 0, 0, 0.12);
+  display: inline-block;
+  vertical-align: baseline;
+  text-align: center;
+  margin-right: 20px;
+  min-width: 64px;
+  border-radius: 4px;
+}
