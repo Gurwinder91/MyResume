@@ -5,7 +5,7 @@ body {
   font-family: Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
   font-size: 18px;
   line-height: 20px;
-  color: rgba(0, 0, 0, 0.64);
+  color: rgba(0, 0, 0, 0.54);
 }
 
 .title {
@@ -41,12 +41,12 @@ body {
 
 .wrapper {
   display: flex;
-  margin: 10px 0px 10px 10px;
+  padding: 0 0 0 10px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 .left-section {
   flex: 1 1 30%;
-  padding: 10px;
 }
 
 .skills > div,
@@ -117,7 +117,7 @@ body {
 
 .about hr{
   border-top: 2px solid #fff;
-  width: 38%;
+  width: 39%;
   margin-bottom: 5px;
 }
 
@@ -127,15 +127,15 @@ body {
 }
 
 .left-section .my-pic img {
-  width: 180px;
-  height: 180px;
+  width: 170px;
+  height: 170px;
   border-radius: 50%;
   object-fit: cover;
+  padding-top:10px
 }
 
 .right-section {
   flex: 1 1 70%;
-  padding: 10px 0px;
 }
 
 .right-section hr {
@@ -170,17 +170,17 @@ hr {
 
 a:hover {
   text-decoration: underline;
-  color: rgba(0, 0, 0, 0.64);
+  color: rgba(0, 0, 0, 0.54);
 }
 a {
-  color: rgba(0, 0, 0, 0.64);
+  color: rgba(0, 0, 0, 0.54);
   text-decoration: underline;
   background-color: transparent;
 }
 
 .interests div > span {
   color: #3f51b5;
-  border: 1px solid rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(0, 0, 0, 0.15);
   padding: 0 15px;
   line-height: 34px;
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.14), 0 0 0 0 rgba(0, 0, 0, 0.12);
