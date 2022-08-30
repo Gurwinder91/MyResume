@@ -59,7 +59,7 @@ body {
 }
 
 .experience p{
-  margin: 5px 0;
+  margin: 0;
 }
 
 .skills > div div {
@@ -228,4 +228,8 @@ a {
 
 .lang-content div:last-child .circle:last-child{
   margin-right: 0px;
+}
+
+.company-project-details, .accomplishments-info{
+  font-size: 15px;
 }
